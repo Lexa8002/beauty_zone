@@ -1,0 +1,245 @@
+@font-face {
+  font-display: swap;
+  font-family: "play";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Play-Regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Play-Bold.woff2") format("woff2");
+}
+
+:root {
+  --color-primary-dark: #011c44;
+  --color-primary-light: #2b7fff;
+  --color-secondary-light: #747272;
+  --color-secondary-dark: rgba(1, 31, 74, 0.4);
+}
+
+/* ---base--- */
+
+* {
+  font-family: Roboto;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--color-primary-dark);
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(255, 255, 255, 1);
+  color: var(--color-primary-dark);
+  font-family: Play, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  background-color: aquamarine;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: Play;
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 114px;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: var(--color-primary-light);
+}
+/* ---header--- */
+.header {
+  position: absolute;
+  width: 100%;
+  max-width: 1440px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+}
+
+.header-container {
+  display: flex;
+  margin: 0 auto;
+  padding: 32px 102px 32px 99px;
+  background: rgba(255, 255, 255, 0.25);
+  justify-content: space-around;
+  align-items: center;
+  height: 106px;
+}
+
+.menu {
+  display: flex;
+  gap: 56px;
+}
+
+.menu a:hover {
+  color: var(--color-primary-light);
+  font-weight: 700;
+}
+.logo {
+  font-family: Play;
+  font-weight: 700;
+
+  font-size: 22px;
+  color: var(--color-primary-light);
+  line-height: 21px;
+  letter-spacing: 0;
+  text-transform: capitalize;
+}
+
+.social-links {
+  display: flex;
+  gap: 32px;
+}
+
+/* ---hero-section--- */
+
+.hero-section {
+  position: relative;
+  margin: 0 auto;
+  background-image: url(../images/header-background1.jpg);
+  max-width: 1440px;
+  height: 658px;
+}
+
+.hero-section-container {
+  position: absolute;
+  width: 529px;
+  height: 408px;
+  opacity: 1;
+  top: 122px;
+  left: 206px;
+  gap: 40px;
+}
+
+.hero-section-container-header1 {
+  padding-bottom: 40px;
+}
+
+.hero-section-container-text1 {
+  font-size: 18px;
+  padding-bottom: 16px;
+}
+
+.hero-section-container-text2 {
+  width: 238px;
+  height: 36px;
+  font-size: 12px;
+}
+
+.hero-section-button {
+  width: 219px;
+  height: 53px;
+  /* gap: 10px; */
+  border: none;
+  border-radius: 32px;
+  padding: 16px 32px;
+  margin-bottom: 14px;
+  background-color: var(--color-primary-light);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+}
+/* 
+-----base
+
+h1,
+h2 {
+  font-family: Play, sans-serif;
+  
+}
+h1 {
+  font-size: 140px;
+  line-height: 114px;
+  text-transform: capitalize;
+  color: var(--color-primary-light);
+}
+
+h2 {
+  font-size: 64px;
+  line-height: 100%;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+}
+
+-----header
+.nav {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  padding: 32px 102px 32px 99px;
+  background: rgba(255, 255, 255, 0.25);
+  justify-content: space-around;
+  align-items: center;
+  height: 106px;
+}
+
+.logo {
+  font-family: Play;
+  font-weight: 700;
+  font-size: 22px;
+
+  line-height: 21px;
+  letter-spacing: 0;
+  text-transform: capitalize;
+  color: var(--color-primary-light);
+}
+
+.nav-menu {
+  gap: 54px;
+}
+.nav-menu a:hover {
+  font-weight: 700;
+
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: var(--color-primary-light);
+}
+
+.social-link {
+  display: flex;
+  gap: 32px;
+}
+
+.header-container {
+  position: relative;
+}
+
+.header-container-text {
+  padding: 16px;
+  width: 529px;
+  height: 408px;
+  angle: 0 deg;
+  opacity: 1;
+  top: 122.52px;
+  left: 206px;
+  gap: 40px;
+}
+
+.header-image {
+  z-index: -1;
+} */
