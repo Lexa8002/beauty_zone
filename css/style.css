@@ -515,19 +515,23 @@ opacity: 1; */
   width: 83px;
   height: 42px;
 }
-.footer-menu li a {
+.footer-menu,
+.container,
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-menu li a,
+.container p,
+.text p {
   color: var(--color-white);
-  padding-bottom: 16px;
 }
 .footer-social-links a {
   fill: var(--color-white);
 }
-.container p {
-  color: var(--color-white);
-}
-.text p {
-  color: var(--color-white);
-}
+
 .footer-image {
   position: absolute;
   right: 0;
